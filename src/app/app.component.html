@@ -1,0 +1,16 @@
+<div class="container">
+
+      <div>
+        <h2>QUOTE</h2>
+      </div>
+      <div class="quote">
+
+          <div>
+            <nz-spin nzSimple [nzSize]="'large'" *ngIf="isLoading" class="center-me"></nz-spin>
+            <p class="qContent"><q [hidden]="isLoading">{{quote.content}}</q></p>
+            <p class="quoteAuthor">{{quote.author}}</p>
+          </div>
+
+      </div>
+
+</div>

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Saira:wght@100;700&display=swap');
+body{
+  margin: 0;
+  height: 100%;
+  font-family: 'Arial';
+  background: url('https://images.unsplash.com/photo-1592330169142-b488cfd72b2b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1800&q=80')
+
+}
+body {
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+
+  font-family: 'Saira Condensed', sans-serif;
+  font-size:24px;
+}

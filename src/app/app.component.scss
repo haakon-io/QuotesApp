@@ -1,0 +1,34 @@
+
+.container {
+  margin: 2rem auto;
+  padding:3em;
+
+  background-color: rgba($color: #f5f0f0, $alpha: 0.4);
+  border-radius:16px;
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+}
+.quote {
+  min-width: 700px;
+  max-width: 1200px;
+}
+
+.center-me {
+  margin:0 auto;
+}
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+
+    .quote {
+      min-width: 400px;
+      max-width: 80vw;
+    }
+
+    .container {
+      margin: 0 28px;
+    }
+  }
